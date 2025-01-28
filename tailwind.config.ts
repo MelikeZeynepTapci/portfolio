@@ -66,8 +66,15 @@ const config: Config = {
   				'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
   				border: 'hsl(var(--sidebar-border))',
   				ring: 'hsl(var(--sidebar-ring))'
-  			}
-  		},
+  			},
+			navy: '#1e264c',
+			steel: '#87a6bb',
+			caramel: '#ab8c65',
+			terracotta: '#ae7268',
+			teal: '#154e52',
+			lavender: '#ac9fbb',
+
+		},
   		borderRadius: {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
@@ -94,8 +101,14 @@ const config: Config = {
   		animation: {
   			'accordion-down': 'accordion-down 0.2s ease-out',
   			'accordion-up': 'accordion-up 0.2s ease-out'
-  		}
-  	}
+  		},
+		opacity: {
+			10: '0.1',
+			20: '0.2',
+			80: '0.8',
+		},
+
+	}
   },
   plugins: [require("tailwindcss-animate")],
 };

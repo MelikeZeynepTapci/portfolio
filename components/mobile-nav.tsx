@@ -19,11 +19,11 @@ export function MobileNav() {
           <Link href="/" className="text-lg hover:text-primary">
             Home
           </Link>
-          <Link href="/portfolio" className="text-lg hover:text-primary">
-            Portfolio
-          </Link>
           <Link href="/about" className="text-lg hover:text-primary">
             About
+          </Link>
+          <Link href="/portfolio" className="text-lg hover:text-primary">
+            Portfolio
           </Link>
           <Link href="/blog" className="text-lg hover:text-primary">
             Blog

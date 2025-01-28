@@ -10,7 +10,9 @@ import { Providers } from "./providers"
 export default function Home() {
   return (
     <Providers>
-      <div className="min-h-screen bg-[#EEE9FF] dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+      <div className="bg-lavender/10 dark:bg-navy text-navy dark:text-lavender
+
+">
         <NavBar />
         <main>
           <section id="home">

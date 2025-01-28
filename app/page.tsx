@@ -9,7 +9,7 @@ import { Footer } from "@/components/footer"
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#EFDFF9] dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+    <div className="min-h-screen bg-lavender/10 dark:bg-navy text-navy dark:text-lavender">
       <NavBar />
       <main>
         <section id="home">

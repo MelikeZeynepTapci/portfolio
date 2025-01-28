@@ -25,26 +25,28 @@ export function NavBar() {
   }
 
   return (
-    <header className={`sticky top-0 z-50 w-full transition-all duration-300 ${isScrolled ? "bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 dark:bg-gray-900/95 dark:backdrop-blur dark:supports-[backdrop-filter]:bg-gray-900/60" : "bg-transparent"}`}>
+      <header
+          className={`sticky top-0 z-50 w-full transition-all duration-300 ${isScrolled ? "bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60 dark:bg-navy/95 dark:backdrop-blur dark:supports-[backdrop-filter]:bg-navy/60" : "bg-lavender/10 dark:bg-transparent"}`}
+      >
       <nav className="flex items-center justify-between max-w-6xl mx-auto px-4 h-16">
         <Link href="/" className="text-xl font-semibold">
-          Meeko
+          Melike
         </Link>
 
         <div className="hidden md:flex items-center space-x-8">
-          <button onClick={() => scrollToSection("home")} className="text-sm text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors">
+          <button onClick={() => scrollToSection("home")} className="text-sm text-navy hover:text-gray-900 dark:text-lavender dark:hover:text-white transition-colors">
             Home
           </button>
-          <button onClick={() => scrollToSection("portfolio")} className="text-sm text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors">
-            Portfolio
-          </button>
-          <button onClick={() => scrollToSection("about")} className="text-sm text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors">
+          <button onClick={() => scrollToSection("about")} className="text-sm text-navy hover:text-gray-900 dark:text-lavender dark:hover:text-white transition-colors">
             About
           </button>
-          <button onClick={() => scrollToSection("contact")} className="text-sm text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors">
+          <button onClick={() => scrollToSection("portfolio")} className="text-sm text-navy hover:text-gray-900 dark:text-lavender dark:hover:text-white transition-colors">
+            Portfolio
+          </button>
+          <button onClick={() => scrollToSection("contact")} className="text-sm text-navy hover:text-gray-900 dark:text-lavender dark:hover:text-white transition-colors">
             Contact
           </button>
-          <a href="https://medium.com" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white transition-colors">
+          <a href="https://medium.com" target="_blank" rel="noopener noreferrer" className="text-sm text-navy hover:text-gray-900 dark:text-lavender dark:hover:text-white transition-colors">
             Blog
           </a>
         </div>
