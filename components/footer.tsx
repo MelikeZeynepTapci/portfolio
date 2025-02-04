@@ -7,7 +7,7 @@ export function Footer() {
         <div className="max-w-6xl mx-auto px-4 py-12">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <h3 className="text-lg font-semibold mb-4 text-navy dark:text-lavender">Meeko</h3>
+              <h3 className="text-lg font-semibold mb-4 text-navy dark:text-lavender">Melike</h3>
               <p className="text-navy dark:text-lavender">Crafting digital experiences with passion and precision.</p>
             </div>
             <div>
@@ -54,20 +54,15 @@ export function Footer() {
             <div>
               <h3 className="text-lg font-semibold mb-4 text-navy dark:text-lavender">Connect</h3>
               <div className="flex space-x-4">
-                <a href="#" className="text-navy dark:text-lavender hover:text-gray-900 dark:hover:text-white">
-                  <Twitter className="w-6 h-6" />
-                </a>
-                <a href="#" className="text-navy dark:text-lavender hover:text-gray-900 dark:hover:text-white">
-                  <Instagram className="w-6 h-6" />
-                </a>
-                <a href="#" className="text-navy dark:text-lavender hover:text-gray-900 dark:hover:text-white">
+
+                <a href="https://www.linkedin.com/in/mztapci/" className="text-navy dark:text-lavender hover:text-gray-900 dark:hover:text-white">
                   <Linkedin className="w-6 h-6" />
                 </a>
               </div>
             </div>
           </div>
           <div className="mt-8 pt-8 border-steel/20 dark:border-lavender/20 text-center text-navy dark:text-lavender">
-            <p>&copy; 2023 Meeko. All rights reserved.</p>
+            <p>&copy; 2025 Melike Zeynep Tapci.</p>
           </div>
         </div>
       </footer>

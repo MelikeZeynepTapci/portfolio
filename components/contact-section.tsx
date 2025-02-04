@@ -10,17 +10,15 @@ export function ContactSection() {
         <div>
           <h3 className="text-2xl font-semibold mb-4">Contact Information</h3>
           <p className="text-gray-600 dark:text-gray-300 mb-6">
-            Feel free to reach out if you have any questions or if you'd like to work together on a project.
+            Feel free to reach out.
           </p>
           <div className="space-y-4">
             <p className="flex items-center">
-              <span className="font-semibold mr-2">Email:</span> hello@meeko.com
+              <span className="font-semibold mr-2">Email:</span> melike@abdibt.com.tr
             </p>
+
             <p className="flex items-center">
-              <span className="font-semibold mr-2">Phone:</span> +1 (123) 456-7890
-            </p>
-            <p className="flex items-center">
-              <span className="font-semibold mr-2">Location:</span> Los Angeles, CA
+              <span className="font-semibold mr-2">Location:</span> Istanbul, TR
             </p>
           </div>
         </div>
